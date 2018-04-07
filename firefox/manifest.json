@@ -25,7 +25,28 @@
       "64": "dist/img/favicon/favicon-64x64.png",
       "96": "dist/img/favicon/favicon-96x96.png",
       "128": "dist/img/favicon/favicon-128x128.png"
-    }
+    },
+    "theme_icons": [{
+      "size": 16,
+      "light": "dist/img/favicon/favicon-16x16.png",
+      "dark": "dist/img/favicon/favicon-16x16-inverted.png"
+    }, {
+      "size": 32,
+      "light": "dist/img/favicon/favicon-32x32.png",
+      "dark": "dist/img/favicon/favicon-32x32-inverted.png"
+    }, {
+      "size": 64,
+      "light": "dist/img/favicon/favicon-64x64.png",
+      "dark": "dist/img/favicon/favicon-64x64-inverted.png"
+    }, {
+      "size": 96,
+      "light": "dist/img/favicon/favicon-96x96.png",
+      "dark": "dist/img/favicon/favicon-96x96-inverted.png"
+    }, {
+      "size": 128,
+      "light": "dist/img/favicon/favicon-128x128.png",
+      "dark": "dist/img/favicon/favicon-128x128-inverted.png"
+    }]
   },
   "background": {
     "scripts": ["main.js"]
@@ -33,6 +54,7 @@
   "permissions": [
     "<all_urls>",
     "webRequest",
-    "storage"
+    "storage",
+    "theme"
   ]
 }
